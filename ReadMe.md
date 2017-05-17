@@ -7,3 +7,5 @@ I am following the [Plural Sight's Python Track](https://app.pluralsight.com/pat
 This is a notes taking repository which will have code and my understanding of the course. Kindly mail me if there an issue with copyright will try to remove it.
 
 ## Reference ##
+
+1. 
