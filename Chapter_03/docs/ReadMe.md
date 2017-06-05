@@ -33,7 +33,8 @@ def function_name(arg1, arg2):
 ### Function Arguments ###
 * Arguments scope is local to the function.
 * **Default/Optional Arguments**
-```
+
+```python
 def function_name(name, student_id=335):
     return
 ```
