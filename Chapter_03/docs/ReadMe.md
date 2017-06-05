@@ -47,4 +47,29 @@ function_name(name="hello", student_id=45)
 ```
     * Once we invoke a function will named arguments, all the arguments to the right of this arguments have to be invoked with there name.
 
+* **Variable Arguments**
+    * As in the `print()` function we can pass variable no of arguments to a function.
+
+```python
+def function_name(*args):
+    print(args)
+
+function_name("Hello", "how", None)
+```
+
+* **Keywords Arguments**
+    * We can also have variable no of arguments which are named.
+
+```python
+def function_name(*kwargs):
+    print(kwargs)
+    print(kwargs['name'])
+
+function_name(name = "Hello", desc = "how", type = None)
+```
+
+* **Nested Function**
+    * We can have one function nested inside another.
+    * The inner function has access to the outer functions variables
+    * This arrangement is called closure.
 
